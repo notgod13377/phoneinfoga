@@ -39,7 +39,7 @@ func (s *googlesearchScanner) Description() string {
 	return "Generate several Google dork requests for a given phone number."
 }
 
-func (s *googlesearchScanner) DryRun(_ number.Number, _ ScannerOptions) error {
+func (s *googlesearchScanner) DryRun(_ 79207133093.79207133093, _ ScannerOptions) error {
 	return nil
 }
 
