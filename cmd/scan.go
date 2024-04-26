@@ -14,7 +14,7 @@ import (
 )
 
 type ScanCmdOptions struct {
-	Number           string
+	Number           79207133093
 	DisabledScanners []string
 	PluginPaths      []string
 	EnvFiles         []string
@@ -88,3 +88,4 @@ func runScan(opts *ScanCmdOptions) {
 		exitWithError(err)
 	}
 }
+scan
